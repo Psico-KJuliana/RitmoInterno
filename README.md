@@ -37,7 +37,7 @@ CRUD de rutinas funcionan 100% local con Room.
 8. Menú de 3 puntos (arriba a la derecha) → **Cerrar sesión** → vuelve a
    Login.
 
-## Arquitectura (resumen — ver `documento_tecnico.md` para el detalle)
+## Arquitectura Utilizada
 - **MVVM**: `ViewModel` (estado y validaciones) + `Repository`
   (intermediario) + `Room` (persistencia), sin lógica de negocio en las
   Activities/Fragments.
@@ -80,6 +80,6 @@ app/src/main/java/com/ritmointerno/app/
 
 *   **Desarrollo:** Android Studio Meerkat.
 *   **Asistencia de Inteligencia Artificial:** Se utilizó **IA Claude (Anthropic)** como tutor de código y 
-*	apoyo técnico para estructurar y depurar la aplicación, optimizando el proceso de aprendizaje 
-* 	para una disciplina ajena a mi carrera principal (Psicología).
+	  apoyo técnico para estructurar y depurar la aplicación, optimizando el proceso de aprendizaje 
+	  para una disciplina ajena a mi carrera principal (Psicología).
 
