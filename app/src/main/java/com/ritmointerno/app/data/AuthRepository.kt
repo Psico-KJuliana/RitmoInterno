@@ -55,4 +55,3 @@ class AuthRepository(private val userDao: UserDao) {
         }
     }
 }
-
