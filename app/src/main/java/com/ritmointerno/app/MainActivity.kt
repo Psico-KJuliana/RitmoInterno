@@ -1,4 +1,4 @@
-package com.example.ritmointerno
+package com.ritmointerno.app
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge

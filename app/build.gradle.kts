@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.ritmointerno"
+    namespace = "com.ritmointerno.app"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.ritmointerno"
+        applicationId = "com.ritmointerno.app"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
