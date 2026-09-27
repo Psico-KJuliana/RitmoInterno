@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- Paleta tomada del documento de diseño -->
+    <color name="gris_carbon">#222831</color>      <!-- Fondo profundo, neutro oscuro -->
+    <color name="greige">#B8A993</color>           <!-- Acento cálido / botones / tabs -->
+    <color name="blanco_crema">#F4F6F0</color>     <!-- Texto e íconos sobre fondo oscuro -->
+
+    <color name="favorito_activo">#E25C5C</color>  <!-- Rojo para el corazón marcado -->
+    <color name="favorito_inactivo">#B8A993</color> <!-- Corazón sin marcar, usa el greige -->
+    <color name="menu_fondo">#2C333D</color> <!-- Fondo del menú -->
+    <color name="gris_input">#9AA098</color> <!-- Borde/ícono de campos sin foco -->
 </resources>
