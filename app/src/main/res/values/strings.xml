@@ -1,3 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">RitmoInterno</string>
+    <string name="app_name">Ritmo Interno</string>
+    <string name="splash_frase">Cada paso fortalece tu alma</string>
+
+    <string name="tab_conceptos">Conceptos</string>
+    <string name="tab_tips">Tips</string>
+    <string name="tab_videos">Videos</string>
+    <string name="tab_recursos">Recursos</string>
+    <string name="tab_favoritos">Favoritos</string>
+
+    <string name="menu_acerca_de">Acerca de</string>
+    <string name="menu_ayuda">Ayuda</string>
+    <string name="menu_salir">Salir</string>
+
+    <string name="acerca_de_texto">Ritmo Interno te ayuda a descubrir cómo el baile mejora tu bienestar emocional, físico y mental.\n\nUniversidad EAN\nFacultad de Psicología\nEstudiante: Karoll Juliana Jiménez Barbosa</string>
+    <string name="ayuda_texto">Explora los conceptos, tips, videos y recursos desde las pestañas superiores. Toca el corazón para guardar tus favoritos.</string>
+
+    <string name="favoritos_vacio">Aún no has marcado nada como favorito.\nToca el corazón en cualquier tarjeta para guardarla aquí.</string>
+
+    <string name="cd_favorito">Marcar o desmarcar como favorito</string>
+    <string name="cd_reproducir">Reproducir video</string>
+
+    <!-- Autenticación -->
+    <string name="login_subtitulo">Inicia sesión para ver tus rutinas</string>
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_confirmar_password">Confirmar contraseña</string>
+    <string name="accion_iniciar_sesion">Iniciar sesión</string>
+    <string name="accion_crear_cuenta">Crear cuenta</string>
+    <string name="ir_a_registro">¿No tienes cuenta? Regístrate</string>
+    <string name="ir_a_login">¿Ya tienes cuenta? Inicia sesión</string>
+    <string name="registro_subtitulo">Crea tu cuenta para empezar</string>
+    <string name="bienvenida">¡Bienvenida, %1$s!</string>
+    <string name="cuenta_creada">Cuenta creada. Ahora inicia sesión.</string>
+    <string name="error_passwords_no_coinciden">Las contraseñas no coinciden.</string>
+    <string name="menu_cerrar_sesion">Cerrar sesión</string>
+
+    <!-- Rutinas (CRUD) -->
+    <string name="tab_mis_rutinas">Mis Rutinas</string>
+    <string name="rutinas_vacio">Aún no has creado ninguna rutina.\nToca el botón + para crear la primera.</string>
+    <string name="rutina_detalle_corto">%1$d min · %2$s</string>
+    <string name="rutina_duracion_formato">%1$d minutos</string>
+    <string name="cd_nueva_rutina">Crear nueva rutina</string>
+    <string name="titulo_nueva_rutina">Nueva rutina</string>
+    <string name="titulo_editar_rutina">Editar rutina</string>
+    <string name="rutina_guardada">Rutina guardada.</string>
+    <string name="rutina_eliminada">Rutina eliminada.</string>
+    <string name="hint_titulo_rutina">Título</string>
+    <string name="hint_descripcion_rutina">Descripción</string>
+    <string name="hint_duracion_rutina">Duración (minutos)</string>
+    <string name="hint_fecha_rutina">Fecha</string>
+    <string name="label_favorito_rutina">Marcar como favorita</string>
+    <string name="accion_guardar">Guardar</string>
+    <string name="accion_editar">Editar</string>
+    <string name="accion_eliminar">Eliminar</string>
+    <string name="confirmar_eliminar_titulo">Eliminar rutina</string>
+    <string name="confirmar_eliminar_mensaje">¿Seguro que quieres eliminar esta rutina? Esta acción no se puede deshacer.</string>
+    <string name="eliminar">Eliminar</string>
 </resources>
