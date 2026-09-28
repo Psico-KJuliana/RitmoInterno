@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gris_carbon">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewRutinas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingBottom="88dp"
+        android:paddingTop="8dp" />
+
+    <TextView
+        android:id="@+id/textRutinasVacio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="32dp"
+        android:gravity="center"
+        android:text="@string/rutinas_vacio"
+        android:textColor="@color/greige"
+        android:textSize="15sp"
+        android:visibility="gone" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabNuevaRutina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="20dp"
+        android:contentDescription="@string/cd_nueva_rutina"
+        android:src="@android:drawable/ic_input_add"
+        app:backgroundTint="@color/greige"
+        app:tint="@color/gris_carbon" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
