@@ -13,9 +13,9 @@ class SessionManager(context: Context) {
 
     fun iniciarSesion(userId: Long, nombre: String) {
         prefs.edit()
-                .putLong(KEY_USER_ID, userId)
-                .putString(KEY_NOMBRE, nombre)
-                .apply()
+            .putLong(KEY_USER_ID, userId)
+            .putString(KEY_NOMBRE, nombre)
+            .apply()
     }
 
     fun cerrarSesion() {

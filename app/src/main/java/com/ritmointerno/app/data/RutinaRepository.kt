@@ -11,7 +11,7 @@ import com.ritmointerno.app.data.db.RutinaEntity
 class RutinaRepository(private val rutinaDao: RutinaDao) {
 
     fun observarRutinas(userId: Long): LiveData<List<RutinaEntity>> =
-            rutinaDao.observarPorUsuario(userId)
+        rutinaDao.observarPorUsuario(userId)
 
     suspend fun obtenerPorId(id: Long): RutinaEntity? = rutinaDao.buscarPorId(id)
 
@@ -22,5 +22,5 @@ class RutinaRepository(private val rutinaDao: RutinaDao) {
     suspend fun eliminar(rutina: RutinaEntity) = rutinaDao.eliminar(rutina)
 
     suspend fun alternarFavorito(rutina: RutinaEntity) =
-            rutinaDao.actualizar(rutina.copy(favorito = !rutina.favorito))
+        rutinaDao.actualizar(rutina.copy(favorito = !rutina.favorito))
 }

@@ -13,7 +13,7 @@ class FavoritesManager(context: Context) {
     private val prefs = context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
 
     fun esFavorito(id: String): Boolean =
-    obtenerIds().contains(id)
+        obtenerIds().contains(id)
 
     fun alternar(id: String) {
         val ids = obtenerIds().toMutableSet()
@@ -22,7 +22,7 @@ class FavoritesManager(context: Context) {
     }
 
     fun obtenerIds(): Set<String> =
-            prefs.getStringSet(KEY_FAVORITOS, emptySet()) ?: emptySet()
+        prefs.getStringSet(KEY_FAVORITOS, emptySet()) ?: emptySet()
 
     companion object {
         private const val PREFS_NAME = "ritmo_interno_favoritos"
