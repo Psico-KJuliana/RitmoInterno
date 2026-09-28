@@ -1,9 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.RitmoInterno" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+    <style name="Theme.RitmoInterno" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/gris_carbon</item>
+        <item name="colorPrimaryDark">@color/gris_carbon</item>
+        <item name="colorAccent">@color/greige</item>
+        <item name="android:windowBackground">@color/gris_carbon</item>
+        <item name="android:textColorPrimary">@color/blanco_crema</item>
+        <!-- Sin esto, el texto placeholder (el que se ve dentro de la caja
+             antes de tener foco, ej. "Contraseña") usa el gris por defecto
+             de Android para temas claros y casi no se ve sobre fondo oscuro. -->
+        <item name="android:textColorHint">@color/gris_input</item>
     </style>
 
-    <style name="Theme.RitmoInterno" parent="Base.Theme.RitmoInterno" />
+    <style name="Theme.RitmoInterno.Splash" parent="Theme.RitmoInterno">
+        <item name="android:windowBackground">@color/gris_carbon</item>
+    </style>
+
+    <style name="ThemeOverlay.RitmoInterno.PopupMenu" parent="ThemeOverlay.MaterialComponents.Dark">
+        <item name="android:colorBackground">@color/menu_fondo</item>
+        <item name="colorSurface">@color/menu_fondo</item>
+        <item name="colorOnSurface">@color/blanco_crema</item>
+        <item name="android:textColorPrimary">@color/blanco_crema</item>
+    </style>
+
+    <style name="ThemeOverlay.RitmoInterno.Dialog" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <item name="colorSurface">@color/menu_fondo</item>
+        <item name="colorOnSurface">@color/blanco_crema</item>
+        <item name="colorPrimary">@color/greige</item>
+        <item name="android:textColorPrimary">@color/blanco_crema</item>
+        <item name="android:textColorSecondary">@color/greige</item>
+    </style>
+
 </resources>
