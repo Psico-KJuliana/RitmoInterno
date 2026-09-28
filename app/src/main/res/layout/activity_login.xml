@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gris_carbon"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="32dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/app_name"
+            android:textColor="@color/blanco_crema"
+            android:textSize="26sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:text="@string/login_subtitulo"
+            android:textColor="@color/greige"
+            android:textSize="14sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/inputLayoutEmail"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:hint="@string/hint_email"
+            app:boxStrokeColor="@color/color_borde_campo"
+            app:boxStrokeWidth="1.5dp"
+            app:boxStrokeWidthFocused="2dp"
+            app:hintTextColor="@color/greige"
+            android:textColorHint="@color/gris_input">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:minHeight="48dp"
+                android:textColor="@color/blanco_crema"
+                android:textCursorDrawable="@drawable/cursor_color" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/inputLayoutPassword"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:hint="@string/hint_password"
+            app:boxStrokeColor="@color/color_borde_campo"
+            app:boxStrokeWidth="1.5dp"
+            app:boxStrokeWidthFocused="2dp"
+            app:endIconMode="password_toggle"
+            app:endIconTint="@color/gris_input"
+            app:hintTextColor="@color/greige"
+            android:textColorHint="@color/gris_input">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:minHeight="48dp"
+                android:textColor="@color/blanco_crema"
+                android:textCursorDrawable="@drawable/cursor_color" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:backgroundTint="@color/greige"
+            android:text="@string/accion_iniciar_sesion"
+            android:textColor="@color/gris_carbon" />
+
+        <ProgressBar
+            android:id="@+id/progressLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textIrRegistro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:minHeight="40dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/ir_a_registro"
+            android:textColor="@color/greige"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</ScrollView>
